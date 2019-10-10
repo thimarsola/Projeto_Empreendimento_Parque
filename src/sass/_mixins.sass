@@ -1,0 +1,71 @@
+@import ../../node_modules/breakpoint-sass/stylesheets/breakpoint
+
+//Cores
+$pq-color1: #468240
+$pq-color2: #333333
+$pq-color3: #fff
+$bgMenu: rgba(51, 51, 51, 0.6)
+
+//font-weight Roboto
+$f1-light: 300
+$f1-regular: 400
+$f1-medium: 500
+$f1-bold: 700
+
+//breakpoints
+$celular: max-width 576px
+$tablet: max-width 768px
+$desktop: max-width 1366px
+
+=transition($transition...)
+	-webkit-transition: all $transition linear
+	-o-transition: all $transition linear
+	transition: all $transition linear
+
+=filter-drop-shadow($offset-x,$offset-y,$blur-radius,$color)
+	-webkit-filter: drop-shadow($offset-x,$offset-y,$blur-radius,$color)
+	filter: drop-shadow($offset-x,$offset-y,$blur-radius,$color)
+
+=placeholderColor($holderColor,$fontSize,$fontWeight)
+	input::placeholder
+		color: $holderColor
+		font-size: $fontSize
+		font-weight: $fontWeight
+	input::-webkit-input-placeholder
+		color: $holderColor
+		font-size: $fontSize
+		font-weight: $fontWeight
+	input::-ms-input-placeholder
+		color: $holderColor
+		font-size: $fontSize
+		font-weight: $fontWeight
+	input::-ms-input-placeholder
+		color: $holderColor
+		font-size: $fontSize
+		font-weight: $fontWeight
+	textarea::placeholder
+		color: $holderColor
+		font-size: $fontSize
+		font-weight: $fontWeight
+	textarea::-webkit-input-placeholder
+		color: $holderColor
+		font-size: $fontSize
+		font-weight: $fontWeight
+	textarea::-ms-input-placeholder
+		color: $holderColor
+		font-size: $fontSize
+		font-weight: $fontWeight
+	textarea::-ms-input-placeholder
+		color: $holderColor
+		font-size: $fontSize
+		font-weight: $fontWeight
+
+=linearGradient($angulo, $cor1, $cor2, $cor3, $cor4)
+	background: linear-gradient($angulo, $cor1, $cor2, $cor3, $cor4)
+	background: -webkit-linear-gradient($angulo, $cor1, $cor2, $cor3, $cor4)
+	background: -o-linear-gradient($angulo, $cor1, $cor2, $cor3, $cor4)
+	background: linear-gradient($angulo, $cor1, $cor2, $cor3, $cor4)
+
+=animation($nome,$time,$ease,$frequencia)
+	-webkit-animation: $nome $time $ease $frequencia
+	animation: $nome $time $ease $frequencia
