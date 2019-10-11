@@ -1,2 +1,71 @@
 @import mixins
 @import body
+
+header
+	position: relative
+	display: block
+	margin: 0 !important
+	padding: 0 !important
+	height: 100vh
+	background:
+		image: url('../assets/bg-header.jpg')
+		size: cover
+		position: center
+	.navbar-menu
+		min-height: 6.25rem
+		border-bottom: 3px solid $pq-color1
+		box-shadow: 0px 4px 4px rgba(51,51,51,0.3)
+		background-color: $bgMenu
+	.abertura
+		position: relative
+		top: 0
+		left: 0
+		width: 100%
+		display: block
+		margin: 0
+		padding: 0
+		color: $pq-color3
+		.conteudo-abertura
+			position: absolute
+			top: 0
+			right: 0
+			width: 40vw
+			.img-header
+				box-shadow: 0px 4px 4px rgba(51,51,51,0.3)
+				img
+					object:
+						fit: cover
+						position: center
+			h6
+				margin-top: 1.875rem
+				padding: 0
+				font:
+					style: normal
+					size: 3.75rem
+					weight: $f1-light
+				line-height: 3.75rem
+				span
+					font:
+						style: normal
+						weight: $f1-medium
+			p
+				font:
+					style: normal
+					size: 1.25
+					weight: $f1-light
+			a
+				margin: 0
+				padding: 0
+				color: $pq-color3
+				font:
+					style: normal
+					size: 1rem
+					weight: $f1-regular
+				text:
+					decoration: none
+				&:hover
+					color: $pq-color1
+					+transition(.3s)
+					transform: scale(1.2)
+				i
+					padding-left: 1rem
