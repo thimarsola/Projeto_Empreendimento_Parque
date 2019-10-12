@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b101407-7322-45f8-83ec-6b07e70165a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_body.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_body.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_mixins.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/plugins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/plugins.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570746227156</updated>
       <workItem from="1570746228488" duration="40000" />
-      <workItem from="1570829210423" duration="2557000" />
+      <workItem from="1570829210423" duration="2695000" />
+      <workItem from="1570845620923" duration="3038000" />
     </task>
     <servers />
   </component>

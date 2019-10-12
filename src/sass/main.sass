@@ -11,39 +11,82 @@ header
 		image: url('../assets/bg-header.jpg')
 		size: cover
 		position: center
+	+breakpoint($tablet)
+		background:
+			position: 25%
 	.navbar-menu
 		min-height: 6.25rem
 		border-bottom: 3px solid $pq-color1
 		box-shadow: 0px 4px 4px rgba(51,51,51,0.3)
 		background-color: $bgMenu
+		.navbar-nav
+			+breakpoint($tablet)
+				padding-top: 3rem
+			.nav-item
+				padding: .5rem 1rem
+				&:nth-child(5)
+					padding-right: 0
+				.nav-link
+					padding: 0 !important
+					height: 2rem !important	
+					&:hover
+						border-bottom: 1.45px solid $pq-color1
+						+transition(.3s)
 	.abertura
+		display: block
 		position: relative
 		top: 0
 		left: 0
 		width: 100%
-		display: block
 		margin: 0
 		padding: 0
 		color: $pq-color3
+		+breakpoint($celular)
+			height: 100%
+			display: flex
+			flex-direction: row
+			flex-wrap: wrap
+			align-items: center
 		.conteudo-abertura
 			position: absolute
 			top: 0
 			right: 0
-			width: 40vw
-			.img-header
+			width: 45vw
+			+breakpoint($desktop)
+				width: 40vw			
+			+breakpoint($tablet)
+				width: 60vw
+			+breakpoint($celular)
+				position: relative
+				padding-left: 2rem
+				width: 100vw
+			img
+				width: 100%
 				box-shadow: 0px 4px 4px rgba(51,51,51,0.3)
-				img
-					object:
-						fit: cover
-						position: center
+				object:
+					fit: cover
+					position: right
+				+breakpoint($tablet)
+					height: 40vh !important
+				+breakpoint($celular)
+					display: none
+					margin: 0
+					padding: 0
 			h6
-				margin-top: 1.875rem
+				margin-top: 2.875rem
 				padding: 0
 				font:
 					style: normal
 					size: 3.75rem
 					weight: $f1-light
 				line-height: 3.75rem
+				+breakpoint($desktop)
+					margin-top: 1.875rem
+				+breakpoint($celular)
+					margin-top: 0
+					font:
+						size: 2.75rem
+					line-height: normal
 				span
 					font:
 						style: normal
@@ -54,7 +97,7 @@ header
 					size: 1.25
 					weight: $f1-light
 			a
-				margin: 0
+				margin-top: 1.875rem
 				padding: 0
 				color: $pq-color3
 				font:

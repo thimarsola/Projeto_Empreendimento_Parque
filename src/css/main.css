@@ -24,42 +24,117 @@ header {
   background-size: cover;
   background-position: center;
 }
+@media (max-width: 768px) {
+  header {
+    background-position: 25%;
+  }
+}
 header .navbar-menu {
   min-height: 6.25rem;
   border-bottom: 3px solid #468240;
   box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.3);
   background-color: #E4E4E4;
 }
+@media (max-width: 768px) {
+  header .navbar-menu .navbar-nav {
+    padding-top: 3rem;
+  }
+}
+header .navbar-menu .navbar-nav .nav-item {
+  padding: 0.5rem 1rem;
+}
+header .navbar-menu .navbar-nav .nav-item:nth-child(5) {
+  padding-right: 0;
+}
+header .navbar-menu .navbar-nav .nav-item .nav-link {
+  padding: 0 !important;
+  height: 2rem !important;
+}
+header .navbar-menu .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 1.45px solid #468240;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
 header .abertura {
+  display: block;
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  display: block;
   margin: 0;
   padding: 0;
   color: #fff;
+}
+@media (max-width: 576px) {
+  header .abertura {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
 header .abertura .conteudo-abertura {
   position: absolute;
   top: 0;
   right: 0;
-  width: 40vw;
+  width: 45vw;
 }
-header .abertura .conteudo-abertura .img-header {
+@media (max-width: 1366px) {
+  header .abertura .conteudo-abertura {
+    width: 40vw;
+  }
+}
+@media (max-width: 768px) {
+  header .abertura .conteudo-abertura {
+    width: 60vw;
+  }
+}
+@media (max-width: 576px) {
+  header .abertura .conteudo-abertura {
+    position: relative;
+    padding-left: 2rem;
+    width: 100vw;
+  }
+}
+header .abertura .conteudo-abertura img {
+  width: 100%;
   box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.3);
-}
-header .abertura .conteudo-abertura .img-header img {
   object-fit: cover;
-  object-position: center;
+  object-position: right;
+}
+@media (max-width: 768px) {
+  header .abertura .conteudo-abertura img {
+    height: 40vh !important;
+  }
+}
+@media (max-width: 576px) {
+  header .abertura .conteudo-abertura img {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
 }
 header .abertura .conteudo-abertura h6 {
-  margin-top: 1.875rem;
+  margin-top: 2.875rem;
   padding: 0;
   font-style: normal;
   font-size: 3.75rem;
   font-weight: 300;
   line-height: 3.75rem;
+}
+@media (max-width: 1366px) {
+  header .abertura .conteudo-abertura h6 {
+    margin-top: 1.875rem;
+  }
+}
+@media (max-width: 576px) {
+  header .abertura .conteudo-abertura h6 {
+    margin-top: 0;
+    font-size: 2.75rem;
+    line-height: normal;
+  }
 }
 header .abertura .conteudo-abertura h6 span {
   font-style: normal;
@@ -71,7 +146,7 @@ header .abertura .conteudo-abertura p {
   font-weight: 300;
 }
 header .abertura .conteudo-abertura a {
-  margin: 0;
+  margin-top: 1.875rem;
   padding: 0;
   color: #fff;
   font-style: normal;
