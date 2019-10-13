@@ -165,4 +165,49 @@ header .abertura .conteudo-abertura a i {
   padding-left: 1rem;
 }
 
+main #o-parque {
+  padding-top: 5.625rem;
+}
+main #o-parque img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+main #o-parque h3 {
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+@media (max-width: 576px) {
+  main #o-parque h3 {
+    margin-top: 3rem;
+    font-size: 1.7rem;
+  }
+  main #o-parque h3 br {
+    display: none;
+  }
+}
+main #o-parque h3 span {
+  color: #468240;
+  font-weight: 500;
+}
+main #o-parque p {
+  margin: 2.8125rem 0 0 0;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+}
+@media (max-width: 576px) {
+  main #o-parque p {
+    margin-top: 1rem;
+  }
+}
+main #o-parque .row div:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 /*# sourceMappingURL=main.css.map */

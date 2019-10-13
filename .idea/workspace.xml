@@ -37,7 +37,7 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,7 +73,9 @@
       <updated>1570746227156</updated>
       <workItem from="1570746228488" duration="40000" />
       <workItem from="1570829210423" duration="2695000" />
-      <workItem from="1570845620923" duration="3038000" />
+      <workItem from="1570845620923" duration="3279000" />
+      <workItem from="1570848957140" duration="151000" />
+      <workItem from="1570993819202" duration="1507000" />
     </task>
     <servers />
   </component>
