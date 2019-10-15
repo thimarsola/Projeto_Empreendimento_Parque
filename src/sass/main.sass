@@ -148,3 +148,124 @@ main
 				display: flex
 				flex-wrap: wrap
 				align-items: center
+	#diferencial
+		padding-top: 9.375rem
+		color: $pq-color3
+		background:
+			image: url("../assets/bg-diferencial.jpg")
+			position: top
+			size: 100%
+			repeat: no-repeat
+		+breakpoint($celular)
+			background-size: 280%
+		.row
+			display: flex
+			justify-content: center
+			div
+				&:nth-child(1)
+					z-index: 2
+					margin: auto -1rem
+					width: 100%
+					height: 100%
+					padding: 2.625rem 4.875rem 
+					background:
+						color: $pq-color2
+					box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.25)
+					+breakpoint($tablet)
+						margin: auto
+						padding: 3rem 2rem
+					h1
+						margin-bottom: 0
+						padding-bottom: 0
+						font:
+							style: normal
+							size: 3rem
+							weight: $f1-bold
+						text-transform: uppercase
+						+breakpoint($tablet)
+							font-size: 2.5rem
+						+breakpoint($celular)
+							font-size: 2.125rem
+					h2
+						margin: 0
+						color: $pq-color1
+						font:
+							style: normal
+							size: 1.6875rem
+							weight: $f1-medium
+					p
+						margin-top: 2rem
+						margin-bottom: 0
+						padding: 0
+						font:
+							style: normal
+							size: 1rem
+							weight: $f1-regular
+						text-align: justify
+				&:nth-child(2)
+					padding: 0
+					margin: auto -1rem
+					box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.25)
+					+breakpoint($tablet)
+						z-index: 1
+						margin: auto
+					img
+						height: 36rem
+						object:
+							fit: cover
+							position: center
+						+breakpoint($celular)
+							height: 18rem
+	#video
+		padding: 4rem 0
+		.row
+			div[class^="col"]
+				&:nth-child(1)
+					margin: auto
+					height: 100%
+					iframe
+						width: 100%
+						height: 23.75rem
+						+breakpoint($celular)
+							height: 15rem
+				&:nth-child(2)
+					padding: 2rem 5rem
+					background: -webkit-linear-gradient(linear, left top, left bottom, from(#F4F4F4), to (rgba(244,244,244,0)))
+					background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%)
+					+breakpoint($tablet)
+						padding: 2rem 1rem 0 1rem
+					h6
+						color: $pq-color1
+						font:
+							style: normal
+							size: 1.375rem
+							weight: $f1-regular
+						text-transform: uppercase
+					p
+						font:
+							style: normal
+							size: 1rem
+							weight: $f1-light
+						text-align: justify
+					form
+						.form-group
+							width: 100% !important
+							+placeholderColor($pq-color4, .875em, $f1-light)
+							input, textarea
+								background: none
+								border-color: $pq-color4
+						button
+							display: flex
+							justify-content: center
+							margin: 2.5rem auto 0 auto
+							padding: .5rem 4.5rem
+							color: $pq-color3
+							background:
+								color: $pq-color1
+							text-align: center
+							box-shadow: 4px 4px 4px rgba(51, 51, 51, 0.15)
+							&:hover
+								background:
+									color: darken($pq-color1, 8%)
+								+transition(.3s)
+							

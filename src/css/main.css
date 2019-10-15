@@ -209,5 +209,194 @@ main #o-parque .row div:nth-child(2) {
   flex-wrap: wrap;
   align-items: center;
 }
+main #diferencial {
+  padding-top: 9.375rem;
+  color: #fff;
+  background-image: url("../assets/bg-diferencial.jpg");
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 576px) {
+  main #diferencial {
+    background-size: 280%;
+  }
+}
+main #diferencial .row {
+  display: flex;
+  justify-content: center;
+}
+main #diferencial .row div:nth-child(1) {
+  z-index: 2;
+  margin: auto -1rem;
+  width: 100%;
+  height: 100%;
+  padding: 2.625rem 4.875rem;
+  background-color: #333333;
+  box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.25);
+}
+@media (max-width: 768px) {
+  main #diferencial .row div:nth-child(1) {
+    margin: auto;
+    padding: 3rem 2rem;
+  }
+}
+main #diferencial .row div:nth-child(1) h1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-style: normal;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  main #diferencial .row div:nth-child(1) h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 576px) {
+  main #diferencial .row div:nth-child(1) h1 {
+    font-size: 2.125rem;
+  }
+}
+main #diferencial .row div:nth-child(1) h2 {
+  margin: 0;
+  color: #468240;
+  font-style: normal;
+  font-size: 1.6875rem;
+  font-weight: 500;
+}
+main #diferencial .row div:nth-child(1) p {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+}
+main #diferencial .row div:nth-child(2) {
+  padding: 0;
+  margin: auto -1rem;
+  box-shadow: 4px 4px 10px rgba(51, 51, 51, 0.25);
+}
+@media (max-width: 768px) {
+  main #diferencial .row div:nth-child(2) {
+    z-index: 1;
+    margin: auto;
+  }
+}
+main #diferencial .row div:nth-child(2) img {
+  height: 36rem;
+  object-fit: cover;
+  object-position: center;
+}
+@media (max-width: 576px) {
+  main #diferencial .row div:nth-child(2) img {
+    height: 18rem;
+  }
+}
+main #video {
+  padding: 4rem 0;
+}
+main #video .row div[class^=col]:nth-child(1) {
+  margin: auto;
+  height: 100%;
+}
+main #video .row div[class^=col]:nth-child(1) iframe {
+  width: 100%;
+  height: 23.75rem;
+}
+@media (max-width: 576px) {
+  main #video .row div[class^=col]:nth-child(1) iframe {
+    height: 15rem;
+  }
+}
+main #video .row div[class^=col]:nth-child(2) {
+  padding: 2rem 5rem;
+  background: -webkit-linear-gradient(linear, left top, left bottom, from(#F4F4F4), to rgba(244, 244, 244, 0));
+  background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
+}
+@media (max-width: 768px) {
+  main #video .row div[class^=col]:nth-child(2) {
+    padding: 2rem 1rem 0 1rem;
+  }
+}
+main #video .row div[class^=col]:nth-child(2) h6 {
+  color: #468240;
+  font-style: normal;
+  font-size: 1.375rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+main #video .row div[class^=col]:nth-child(2) p {
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: justify;
+}
+main #video .row div[class^=col]:nth-child(2) form .form-group {
+  width: 100% !important;
+}
+main #video .row div[class^=col]:nth-child(2) form .form-group input::placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #video .row div[class^=col]:nth-child(2) form .form-group input::-webkit-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #video .row div[class^=col]:nth-child(2) form .form-group input::-ms-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #video .row div[class^=col]:nth-child(2) form .form-group input::-ms-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #video .row div[class^=col]:nth-child(2) form .form-group textarea::placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #video .row div[class^=col]:nth-child(2) form .form-group textarea::-webkit-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #video .row div[class^=col]:nth-child(2) form .form-group textarea::-ms-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #video .row div[class^=col]:nth-child(2) form .form-group textarea::-ms-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #video .row div[class^=col]:nth-child(2) form .form-group input, main #video .row div[class^=col]:nth-child(2) form .form-group textarea {
+  background: none;
+  border-color: #A5978F;
+}
+main #video .row div[class^=col]:nth-child(2) form button {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem auto 0 auto;
+  padding: 0.5rem 4.5rem;
+  color: #fff;
+  background-color: #468240;
+  text-align: center;
+  box-shadow: 4px 4px 4px rgba(51, 51, 51, 0.15);
+}
+main #video .row div[class^=col]:nth-child(2) form button:hover {
+  background-color: #376733;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
 
 /*# sourceMappingURL=main.css.map */
