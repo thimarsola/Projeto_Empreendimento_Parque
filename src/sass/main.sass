@@ -268,4 +268,177 @@ main
 								background:
 									color: darken($pq-color1, 8%)
 								+transition(.3s)
-							
+	#img-galeria
+		img
+			width: 100% !important
+			height: auto
+	#galeria
+		padding: 3.125rem 0
+		h2
+			font:
+				style: normal
+				size: 2rem
+				weight: $f1-regular
+			text:
+				align: center
+				transform: uppercase
+		p
+			margin-top: .875rem
+			color: $pq-color1
+			font:
+				style: normal
+				size: 1.125rem
+				weight: $f1-medium
+			text:
+				align: center
+		.galeria-mansory
+			display: grid
+			grid-template-columns: repeat(4, 1fr)
+			grid-template-rows: repeat(3, 300px)
+			grid-gap: 10px
+			+breakpoint($celular)
+				display: flex
+				flex-wrap: wrap
+	#servicos
+		.coluna-6
+			display: flex
+			flex-wrap: wrap
+			margin: 0
+			padding: 0
+			width: 50%
+			+breakpoint($celular)
+				width: 100%
+				height: 100%
+		.destaque-servicos
+			display: flex
+			flex-wrap: wrap
+			margin: 0
+			div[class^="coluna"]
+				width: 50%
+				+breakpoint($celular)
+					width: 100%
+					height: 100%
+				&:nth-child(1)
+					background:
+						color: #F4F4F4
+					.content-servicos
+						display: flex
+						flex-direction: column
+						justify-content: center
+						height: 100%
+						padding: 2rem 6.25rem
+						+breakpoint($tablet)
+							padding: 2rem
+						h3
+							font:
+								style: normal
+								size: 2rem
+								weight: $f1-regular
+							+breakpoint($celular)
+								text-align: center
+							span
+								color: $pq-color1
+								font:
+									weight: $f1-medium
+						p
+							margin: 2rem 0 0 0
+							padding: 0
+							font:
+								style: normal
+								size: 1.125rem
+								weight: $f1-regular
+							text-align: justify
+				&:nth-child(2)
+					.grid-layout
+						display: grid
+						grid-template-columns: repeat(4,1fr)
+						grid-template-rows: repeat(2, 140px)
+						grid-gap: 10px
+						margin: auto
+						padding: 4rem 5rem
+						height: 100%
+						background:
+							color: #151314
+						color: $pq-color3
+						+breakpoint($tablet)
+							padding: 4rem 1rem
+							grid-template-columns: repeat(2, 1fr)
+							grid-template-rows: repeat(4, 130px)
+						.vetores
+							width: 100% !important
+							height: 100% !important
+							display: flex
+							flex-direction: column
+							justify-content: center
+							align-items: center
+							+breakpoint($tablet)
+								width: 50%
+							img
+								padding: 0 !important
+							h4
+								width: 100%
+								margin: .625rem 0 0 0
+								padding: 0
+								font:
+									style: normal
+									size: 1rem
+									weight: $f1-regular
+								text-align: center
+								line-height: 1rem
+		.quadra-tenis
+			display: flex
+			flex-wrap: wrap
+			margin: 0
+			padding: 0
+			div[class^="coluna-6"]
+				&:nth-child(1)
+					display: flex
+					align-items: center
+					order: 1
+					background: 
+						color: #151314
+					color: $pq-color3
+					+breakpoint($celular)
+						order: 2
+					.conteudo
+						margin: auto
+						padding: 3rem 6.25rem
+						+breakpoint($desktop)
+							padding: 3rem 3.125rem
+						+breakpoint($celular)
+							padding: 3rem 1rem
+						span
+							color: $pq-color1
+							font-weight: $f1-bold
+						h3
+							margin: 0
+							padding: 0
+							font:
+								style: normal
+								size: 2rem
+								weight: $f1-regular
+							text:
+								align: justify
+								transform: uppercase
+							+breakpoint($tablet)
+								text-align: left
+						p
+							margin: 2.625rem 0 0 0
+							padding: 0
+							font:
+								style: normal
+								size: 1rem
+								weight: $f1-regular
+							text:
+								align: justify 
+				&:nth-child(2)
+					order: 2
+					+breakpoint($celular)
+						order: 1
+						height: 16rem
+					img
+						width: 100%
+						height: 100%
+						object:
+							fit: cover
+							position: center
