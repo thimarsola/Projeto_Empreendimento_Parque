@@ -613,5 +613,121 @@ main #servicos .quadra-tenis div[class^=coluna-6]:nth-child(2) img {
   object-fit: cover;
   object-position: center;
 }
+main #servicos .maiores-informacoes {
+  padding: 3.75rem 0;
+}
+main #servicos .maiores-informacoes .row {
+  margin: auto;
+}
+main #servicos .maiores-informacoes .row div[class^=col] {
+  padding: 0;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(1) {
+  z-index: 1;
+  margin: auto -1rem auto 0;
+}
+@media (max-width: 576px) {
+  main #servicos .maiores-informacoes .row div[class^=col]:nth-child(1) {
+    margin: 0;
+  }
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(1) img {
+  height: 28rem;
+  object-fit: cover;
+  object-position: center;
+}
+@media (max-width: 576px) {
+  main #servicos .maiores-informacoes .row div[class^=col]:nth-child(1) img {
+    height: 14rem;
+  }
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) {
+  margin: auto 0 auto -1rem;
+  z-index: 2;
+}
+@media (max-width: 576px) {
+  main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) {
+    margin: 0;
+  }
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) ul {
+  margin: 0;
+  padding: 2rem;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) ul li {
+  margin-bottom: 0.5rem;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info {
+  padding: 5.375rem 3.125rem;
+  background-color: #F4F4F4;
+  box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.3);
+}
+@media (max-width: 576px) {
+  main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info {
+    padding: 5rem 1.5rem;
+  }
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info h2 {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 400;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info h2 span {
+  color: #468240;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info p {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info p span {
+  color: #468240;
+  font-weight: 500;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info .info-show {
+  margin-top: 2rem;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info .info-show button {
+  width: 100% !important;
+  background: none;
+  border: none;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info .info-show .info-gratuitos .info-content-gratuitos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0.625rem;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info .info-show .info-gratuitos .info-content-gratuitos h4, main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info .info-show .info-gratuitos .info-content-gratuitos p {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info .info-show .info-opcionais .info-content-opicionais {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0.625rem;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info .info-show .info-opcionais .info-content-opicionais h4, main #servicos .maiores-informacoes .row div[class^=col]:nth-child(2) .info .info-show .info-opcionais .info-content-opicionais p {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+}
 
 /*# sourceMappingURL=main.css.map */

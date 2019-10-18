@@ -442,3 +442,100 @@ main
 						object:
 							fit: cover
 							position: center
+		.maiores-informacoes
+			padding: 3.75rem 0
+			.row
+				margin: auto
+				div[class^="col"]
+					padding: 0
+					&:nth-child(1)
+						z-index: 1
+						margin: auto -1rem auto 0
+						+breakpoint($celular)
+							margin: 0
+						img
+							height: 28rem
+							object:
+								fit: cover
+								position: center
+							+breakpoint($celular)
+								height: 14rem
+					&:nth-child(2)
+						margin: auto 0 auto -1rem
+						z-index: 2
+						+breakpoint($celular)
+							margin: 0
+						ul
+							margin: 0
+							padding: 2rem
+							li
+								margin-bottom: .5rem
+								font:
+									style: normal
+									size: 1rem
+									weight: $f1-light
+						.info
+							padding: 5.375rem 3.125rem
+							background: 
+								color: #F4F4F4
+							box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.3)
+							+breakpoint($celular)
+								padding: 5rem 1.5rem
+							h2
+								margin: 0
+								padding: 0
+								font:
+									style: normal
+									size: 2rem
+									weight: $f1-regular
+								span
+									color: $pq-color1
+							p
+								margin: 0
+								padding: 0
+								font:
+									style: normal
+									size: 1.25rem
+									weight: $f1-light
+								span
+									color: $pq-color1
+									font:
+										weight: $f1-medium
+							.info-show
+								margin-top: 2rem
+								button
+									width: 100% !important
+									background: none
+									border: none
+								.info-gratuitos
+									.info-content-gratuitos
+										display: flex
+										justify-content: space-between
+										margin: 0
+										padding: .625rem
+										border:
+											top: 1px solid #E5E5E5
+											bottom: 1px solid #E5E5E5
+										h4, p
+											margin: 0
+											padding: 0
+											font:
+												style: normal
+												size: 1rem
+												weight: $f1-light
+								.info-opcionais
+									.info-content-opicionais
+										display: flex
+										justify-content: space-between
+										margin: 0
+										padding: .625rem
+										border:
+											top: 1px solid #E5E5E5
+											bottom: 1px solid #E5E5E5
+										h4, p
+											margin: 0
+											padding: 0
+											font:
+												style: normal
+												size: 1rem
+												weight: $f1-light
