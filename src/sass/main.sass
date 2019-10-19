@@ -539,3 +539,81 @@ main
 												style: normal
 												size: 1rem
 												weight: $f1-light
+	#plantas
+		color: $pq-color3
+		padding: 4.6875rem 0
+		background:
+			image: url("../assets/bg-plantas.jpg")
+			size: cover
+			position: center
+		h2
+			margin-bottom: .875rem
+			font:
+				style: normal
+				size: 2rem
+				weight: $f1-regular
+			text:
+				align: center
+				transform: uppercase
+		p
+			font:
+				style: normal
+				size: 1.375rem
+				weight: $f1-light
+			text-align: center
+		h3
+			padding-left: 1.375rem
+			border-left: 1rem solid $pq-color3
+			font:
+				style: normal
+				size: 3.75rem
+				weight: $f1-bold
+			text:
+				transform: uppercase
+			span
+				color: $pq-color1
+		.row
+			margin-top: 4.25rem
+			div[class^="col"]
+				display: flex
+				flex-direction: column
+				justify-content: center
+				h3
+					margin: 1.5rem auto
+				&:nth-child(2)
+					+breakpoint($celular)
+						margin-top: 2.75rem
+	#carousel-plantas
+		padding: 5.125rem 0
+		background: 
+			color: #f8f8f8
+		.container
+			padding: 0 15%
+			+breakpoint($desktop)
+				padding: 0 20%			
+			+breakpoint($tablet)
+				padding: 0 10%
+			h2
+				font:
+					style: normal
+					size: 2rem
+					weight: $f1-regular
+				text:
+					align: center
+			.carousel-item
+				img
+					margin: auto
+					width: 100%
+			.control
+				display: flex
+				justify-content: space-between
+				margin: auto
+				width: 100%
+				a
+					opacity: .5
+					&:hover
+						opacity: 1
+						+transition(.3s)
+					img
+						+breakpoint($celular)
+							transform: scale(.85)
