@@ -617,3 +617,48 @@ main
 					img
 						+breakpoint($celular)
 							transform: scale(.85)
+	#contato
+		background: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 244, 244, 0)), to(#E5E5E5))
+		background: linear-gradient(180deg, rgba(244, 244, 244, 0) 0%, #E5E5E5 100%)
+		.container
+			padding: 5.625rem 10%
+			h2
+				margin-bottom: 1.5rem
+				font:
+					style: normal
+					size: 2rem
+					weight: $f1-regular
+				text-align: center
+			hr
+				margin-bottom: 2.75rem
+				width: 10.875rem
+				border: 1px solid $pq-color1
+			p
+				margin-bottom: 3.125rem
+				font:
+					style: normal
+					size: 1rem
+					weight: $f1-light
+				text-align: center
+			form
+				.form-group
+					width: 100% !important
+					+placeholderColor($pq-color4, .875em, $f1-light)
+					input, textarea
+						background: none
+						border-color: $pq-color4
+				button
+					display: flex
+					justify-content: center
+					margin: 2.5rem auto 0 auto
+					padding: .5rem 4.5rem
+					color: $pq-color3
+					background:
+						color: $pq-color1
+					text-align: center
+					box-shadow: 4px 4px 4px rgba(51, 51, 51, 0.15)
+					&:hover
+						background:
+							color: darken($pq-color1, 8%)
+						+transition(.3s)
+		

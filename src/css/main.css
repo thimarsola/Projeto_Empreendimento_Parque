@@ -824,5 +824,94 @@ main #carousel-plantas .container .control a:hover {
     transform: scale(0.85);
   }
 }
+main #contato {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(244, 244, 244, 0)), to(#E5E5E5));
+  background: linear-gradient(180deg, rgba(244, 244, 244, 0) 0%, #E5E5E5 100%);
+}
+main #contato .container {
+  padding: 5.625rem 10%;
+}
+main #contato .container h2 {
+  margin-bottom: 1.5rem;
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+main #contato .container hr {
+  margin-bottom: 2.75rem;
+  width: 10.875rem;
+  border: 1px solid #468240;
+}
+main #contato .container p {
+  margin-bottom: 3.125rem;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+}
+main #contato .container form .form-group {
+  width: 100% !important;
+}
+main #contato .container form .form-group input::placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #contato .container form .form-group input::-webkit-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #contato .container form .form-group input::-ms-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #contato .container form .form-group input::-ms-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #contato .container form .form-group textarea::placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #contato .container form .form-group textarea::-webkit-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #contato .container form .form-group textarea::-ms-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #contato .container form .form-group textarea::-ms-input-placeholder {
+  color: #A5978F;
+  font-size: 0.875em;
+  font-weight: 300;
+}
+main #contato .container form .form-group input, main #contato .container form .form-group textarea {
+  background: none;
+  border-color: #A5978F;
+}
+main #contato .container form button {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem auto 0 auto;
+  padding: 0.5rem 4.5rem;
+  color: #fff;
+  background-color: #468240;
+  text-align: center;
+  box-shadow: 4px 4px 4px rgba(51, 51, 51, 0.15);
+}
+main #contato .container form button:hover {
+  background-color: #376733;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
 
 /*# sourceMappingURL=main.css.map */

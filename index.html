@@ -340,7 +340,7 @@
 		<section id="carousel-plantas">
 			<div class="container">
 				<h2>Plantas</h2>
-				<div id="carouselControlsPlanta" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1000">
+				<div id="carouselControlsPlanta" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2500">
 					<!-- Controles -->
 					<div class="control">
 						<a class="control-prev" href="#carouselControlsPlanta" role="button" data-slide="prev">
@@ -377,6 +377,38 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</section>
+		<!-- Mapa -->
+		<section id="mapa">
+			<div class="container-fluid">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.8592611508396!2d-46.693974770822884!3d-23.624514499040703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce514f5fd2db6b%3A0x36fa9f52846ee49a!2sO%20Parque%20-%20Naturalmente%20Incompar%C3%A1vel!5e0!3m2!1spt-BR!2sbr!4v1571455779019!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div>
+		</section>
+		<!-- Contato -->
+		<section id="contato">
+			<div class="container">
+				<h2>Contato</h2>
+				<hr>
+				<p>Gostou deste empreendimento? Preencha o formulário abaixo e envie para nós a sua mensagem. Teremos o maior prazer em lhe responder o mais breve possível.</p>
+				<!-- Formulário -->
+				<form action="src/php/enviaForm.php" method="POST" autocomplete="on">
+					<div class="form-group">
+						<input type="text" class="form-control" id="campo-nome" placeholder="Nome" name="nome" size="35" maxlength="100" required>
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" id="campo-email" placeholder="E-mail" required>
+					</div>
+					<div class="form-group">
+						<input type="tel" class="form-control" id="campo-cel" name="celular" placeholder="Celular" size="35" maxlength="70" required>
+					</div>
+					<div class="form-group">
+					<textarea class="form-control" id="campo-mensagem" rows="3" name="mensagem" placeholder="Mensagem*" required></textarea>
+					</div>
+					<div class="g-recaptcha d-flex justify-content-center" data-sitekey="6LcJhLYUAAAAAPa-e1FBA1REXslhhriGxkhi3Hen">
+					</div>
+					<button type="submit" name="submit" value="submit" class="btn">Enviar</button>
+				</form>
 			</div>
 		</section>
 	</main>
